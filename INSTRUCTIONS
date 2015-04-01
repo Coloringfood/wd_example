@@ -8,6 +8,9 @@ mkdir project; cd project
 npm install express mocha wd selenium-server urlencoded-request-parser express-json body-parser
 npm install urlencoded-request-parser body-parser underscore colors async q chai chai-as-promised wd supertest
 
+#link node to nodejs
+sudo ln -s "$(which nodejs)" /usr/bin/node
+
 #npm install will install all the packages in package.json
 npm install
 
